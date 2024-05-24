@@ -22,11 +22,11 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "1471469091"))
+OWNER_ID = int(getenv("OWNER_ID", "6329937391"))
 
 START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAxkBAAEL5olmGPWEXFq5JVQtvFpiKqx1mY3F4AACBwgAAssdOVf48RP1cE0UejQE")
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Idhaya X Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Magic X Music")
 
 POWERED_BY = getenv("POWERED_BY", "ᴍᴀɢɪᴄ❥︎")
 
@@ -86,25 +86,22 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/c00f7bc800cbe221465ba.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/cfe5a72c2a71fa7720271.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/ceb40a2b642db9aff9a1a.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/29bf663a3b91c7e0086bc.jpg"
 )
-PLAYLIST_IMG_URL = getenv(
-    "PLAYLIST_IMG_URL", "https://telegra.ph/file/f1c912f366e4696d292c7.jpg"
-)
-STATS_IMG_URL = getenv(
-    "STATS_IMG_URL", "https://telegra.ph/file/ceb40a2b642db9aff9a1a.jpg"
-)
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/fa144f06d6d024877edda.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/fa144f06d6d024877edda.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/b00af14042edff8b71f2e.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/9f3720a8d4ec5ae50977f.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/fa144f06d6d024877edda.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/fa144f06d6d024877edda.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/fa144f06d6d024877edda.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/cfe5a72c2a71fa7720271.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/2abd798099b17a5a9b2fb.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/590f5404cdc7840b63a1c.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/590f5404cdc7840b63a1c.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/590f5404cdc7840b63a1c.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/5eb646ee0bf810113af22.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/61024698bfc926e95d57a.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/61024698bfc926e95d57a.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/61024698bfc926e95d57a.jpg"
+
 
 
 def time_to_seconds(time):
