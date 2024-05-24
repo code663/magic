@@ -28,7 +28,7 @@ START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAxkBAAEL5olmGPWEXFq5JVQtv
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Idhaya X Music")
 
-POWERED_BY = getenv("POWERED_BY", "𝐈𝐃𝐇𝐀𝐘𝐀𝐍ᥫ᭡")
+POWERED_BY = getenv("POWERED_BY", "ᴍᴀɢɪᴄ❥︎")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -36,15 +36,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/balah0409/IdhayaXVibez",
+    "https://github.com/code663/magic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/idhayanvibezupdate")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/idhayanvibezsupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/mr_editx")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/angel_world11")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
